@@ -1,0 +1,123 @@
+api_extracted/
+└── api/
+    ├── PROJECT_REQUIREMENTS.md
+    ├── __init__.py
+    ├── config.py
+    ├── dependencies.py
+    ├── middleware.py
+    ├── routes.py
+    ├── server.py
+    ├── config/
+    │   ├── __init__.py
+    │   ├── audit.py
+    │   ├── cache.py
+    │   ├── database.py
+    │   ├── logging.py
+    │   ├── notification.py
+    │   ├── permissions.py
+    │   ├── rate_limit.py
+    │   ├── security.py
+    │   ├── settings.py
+    │   ├── validation.py
+    ├── dependencies/
+    │   ├── __init__.py
+    │   ├── audit.py
+    │   ├── auth.py
+    │   ├── cache.py
+    │   ├── database.py
+    │   ├── logger.py
+    │   ├── rate_limiter.py
+    │   ├── redis.py
+    │   ├── validation.py
+    ├── middleware/
+    │   ├── ___init___.py
+    │   ├── auth.py
+    │   ├── caching.py
+    │   ├── compression.py
+    │   ├── error_handling.py
+    │   ├── logging.py
+    │   ├── metrics.py
+    │   ├── rate_limiting.py
+    │   ├── security.py
+    │   ├── validation.py
+    ├── models/
+    │   ├── __init__.py
+    │   ├── admin.py
+    │   ├── audit.py
+    │   ├── auth.py
+    │   ├── balance.py
+    │   ├── blacklist.py
+    │   ├── common.py
+    │   ├── conversion.py
+    │   ├── error.py
+    │   ├── logs.py
+    │   ├── notifications.py
+    │   ├── product.py
+    │   ├── rate_limit.py
+    │   ├── settings.py
+    │   ├── stock.py
+    │   ├── transaction.py
+    │   ├── user.py
+    │   ├── validation.py
+    ├── routes/
+    │   ├── __init__.py
+    │   ├── admin.py
+    │   ├── audit.py
+    │   ├── auth.py
+    │   ├── balance.py
+    │   ├── dashboard.py
+    │   ├── notifications.py
+    │   ├── product.py
+    │   ├── reports.py
+    │   ├── settings.py
+    │   ├── stock.py
+    │   ├── transactions.py
+    │   ├── user.py
+    ├── service/
+    │   ├── __init__.py
+    │   ├── admin_service.py
+    │   ├── audit_service.py
+    │   ├── auth_service.py
+    │   ├── balance_service.py
+    │   ├── blacklist_service.py
+    │   ├── compression_service.py
+    │   ├── conversion_service.py
+    │   ├── database_service.py
+    │   ├── error_handling_service.py
+    │   ├── logs_service.py
+    │   ├── metrics_service.py
+    │   ├── notifications_service.py
+    │   ├── product_service.py
+    │   ├── rate_limit_service.py
+    │   ├── settings_service.py
+    │   ├── stock_service.py
+    │   ├── transaction_service.py
+    │   ├── user_service.py
+    │   ├── validation_service.py
+    ├── static/
+    │   ├── favicon.ico
+    │   ├── css/
+    │   │   └── style.css
+    │   ├── js/
+    │   │   └── main.js
+    ├── templates/
+    │   ├── base.html
+    │   ├── dashboard.html
+    │   ├── login.html
+    ├── utils/
+    │   ├── ___init___.py
+    │   ├── audit_utils.py
+    │   ├── button_handler.py
+    │   ├── command_handler.py
+    │   ├── conversion.py
+    │   ├── currency_utils.py
+    │   ├── date_utils.py
+    │   ├── db.py
+    │   ├── exceptions.py
+    │   ├── format_utils.py
+    │   ├── platform_utils.py
+    │   ├── rate_limit_utils.py
+    │   ├── security_utils.py
+    │   ├── string_utils.py
+    │   ├── transaction_utils.py
+    │   ├── validation_utils.py
