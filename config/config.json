@@ -1,0 +1,15 @@
+{
+  "api": {
+    "version": "1.0.0",
+    "host": "0.0.0.0",
+    "port": 8080,
+    "debug": true
+  },
+  "auth": {
+    "token_expire_minutes": 30,
+    "max_token_expire_minutes": 1440,
+    "min_token_expire_minutes": 5
+  },
+  "default_user": "fdygg",
+  "created_at": "2025-05-27T14:19:35.989642+00:00"
+}

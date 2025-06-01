@@ -1,0 +1,266 @@
+2025-05-26 10:35:03,377 - database - INFO - Database setup completed successfully
+2025-05-26 10:35:03,384 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-26 10:35:03,443 - __main__ - INFO - Starting API server on port 8080
+2025-05-26 10:35:03,445 - discord.client - INFO - logging in using static token
+2025-05-26 10:35:35,479 - AdminCog - INFO - Admin ID loaded: 1035189920488235120
+2025-05-26 10:35:35,481 - cogs.admin - INFO - Admin cog loaded successfully at 2025-05-26 03:35:35 UTC
+2025-05-26 10:35:35,482 - __main__ - INFO - ✅ Loaded extension: cogs.admin
+2025-05-26 10:35:35,578 - LiveStock - INFO - LiveStock cog loaded and task started
+2025-05-26 10:35:35,578 - root - INFO - LiveStock cog loaded successfully
+2025-05-26 10:35:35,578 - __main__ - INFO - ✅ Loaded extension: ext.live_stock
+2025-05-26 10:35:35,582 - root - INFO - Transaction cog loaded successfully at 2025-05-26 03:35:35 UTC
+2025-05-26 10:35:35,582 - __main__ - INFO - ✅ Loaded extension: ext.trx
+2025-05-26 10:35:35,613 - __main__ - INFO - ✅ Loaded extension: ext.donate
+2025-05-26 10:35:35,616 - BalanceManagerCog - INFO - BalanceManagerCog loading...
+2025-05-26 10:35:35,616 - root - INFO - BalanceManager cog loaded successfully at 2025-05-26 03:35:35 UTC
+2025-05-26 10:35:35,617 - __main__ - INFO - ✅ Loaded extension: ext.balance_manager
+2025-05-26 10:35:35,621 - ProductManagerCog - INFO - ProductManagerCog loading...
+2025-05-26 10:35:35,621 - root - INFO - ProductManager cog loaded successfully at 2025-05-26 03:35:35 UTC
+2025-05-26 10:35:35,622 - __main__ - INFO - ✅ Loaded extension: ext.product_manager
+2025-05-26 10:35:36,595 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8d750d0d2060d2490f2a128631e86b6f).
+2025-05-26 10:35:38,702 - __main__ - INFO - Bot Fdy is ready!
+2025-05-26 10:35:38,702 - __main__ - INFO - Bot ID: 1319288311881142323
+2025-05-26 10:35:38,703 - __main__ - INFO - Guild ID: 1318806349118963722
+2025-05-26 10:35:38,703 - __main__ - INFO - Admin ID: 1035189920488235120
+2025-05-26 10:35:38,703 - __main__ - INFO - ✅ Found Live Stock channel: 📜⌗・live-stock
+2025-05-26 10:35:38,703 - __main__ - INFO - ✅ Found Purchase Log channel: log-purch
+2025-05-26 10:35:38,703 - __main__ - INFO - ✅ Found Donation Log channel: deposit
+2025-05-26 10:35:38,703 - __main__ - INFO - ✅ Found History Buy channel: buy-logs
+2025-05-26 10:35:38,703 - __main__ - INFO - ✅ Found Music channel: 🔔⌗・music
+2025-05-26 10:35:38,704 - __main__ - INFO - ✅ Found Logs channel: 🔔⌗・logs
+2025-05-26 10:35:38,705 - TransactionCog - INFO - TransactionCog is ready at 2025-05-26 03:35:38 UTC
+2025-05-26 10:35:38,705 - BalanceManagerCog - INFO - BalanceManagerCog is ready at 2025-05-26 03:35:38 UTC
+2025-05-26 10:35:39,396 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 10:36:00,833 - database - INFO - Database setup completed successfully
+2025-05-26 10:36:00,840 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-26 10:36:00,882 - discord.client - INFO - logging in using static token
+2025-05-26 10:36:02,011 - AdminCog - INFO - Admin ID loaded: 1035189920488235120
+2025-05-26 10:36:02,012 - cogs.admin - INFO - Admin cog loaded successfully at 2025-05-26 03:36:02 UTC
+2025-05-26 10:36:02,012 - __main__ - INFO - ✅ Loaded extension: cogs.admin
+2025-05-26 10:36:02,054 - LiveStock - INFO - LiveStock cog loaded and task started
+2025-05-26 10:36:02,055 - root - INFO - LiveStock cog loaded successfully
+2025-05-26 10:36:02,055 - __main__ - INFO - ✅ Loaded extension: ext.live_stock
+2025-05-26 10:36:02,060 - root - INFO - Transaction cog loaded successfully at 2025-05-26 03:36:02 UTC
+2025-05-26 10:36:02,060 - __main__ - INFO - ✅ Loaded extension: ext.trx
+2025-05-26 10:36:02,065 - __main__ - INFO - ✅ Loaded extension: ext.donate
+2025-05-26 10:36:02,069 - BalanceManagerCog - INFO - BalanceManagerCog loading...
+2025-05-26 10:36:02,069 - root - INFO - BalanceManager cog loaded successfully at 2025-05-26 03:36:02 UTC
+2025-05-26 10:36:02,069 - __main__ - INFO - ✅ Loaded extension: ext.balance_manager
+2025-05-26 10:36:02,077 - ProductManagerCog - INFO - ProductManagerCog loading...
+2025-05-26 10:36:02,077 - root - INFO - ProductManager cog loaded successfully at 2025-05-26 03:36:02 UTC
+2025-05-26 10:36:02,078 - __main__ - INFO - ✅ Loaded extension: ext.product_manager
+2025-05-26 10:36:03,042 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 06fa373e414eca3bd0d21ffe593f199a).
+2025-05-26 10:36:05,096 - __main__ - INFO - Bot Fdy is ready!
+2025-05-26 10:36:05,097 - __main__ - INFO - Bot ID: 1319288311881142323
+2025-05-26 10:36:05,097 - __main__ - INFO - Guild ID: 1318806349118963722
+2025-05-26 10:36:05,097 - __main__ - INFO - Admin ID: 1035189920488235120
+2025-05-26 10:36:05,097 - __main__ - INFO - ✅ Found Live Stock channel: 📜⌗・live-stock
+2025-05-26 10:36:05,097 - __main__ - INFO - ✅ Found Purchase Log channel: log-purch
+2025-05-26 10:36:05,098 - __main__ - INFO - ✅ Found Donation Log channel: deposit
+2025-05-26 10:36:05,098 - __main__ - INFO - ✅ Found History Buy channel: buy-logs
+2025-05-26 10:36:05,098 - __main__ - INFO - ✅ Found Music channel: 🔔⌗・music
+2025-05-26 10:36:05,098 - __main__ - INFO - ✅ Found Logs channel: 🔔⌗・logs
+2025-05-26 10:36:05,099 - TransactionCog - INFO - TransactionCog is ready at 2025-05-26 03:36:05 UTC
+2025-05-26 10:36:05,099 - BalanceManagerCog - INFO - BalanceManagerCog is ready at 2025-05-26 03:36:05 UTC
+2025-05-26 10:36:05,545 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 10:36:33,736 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 10:37:00,120 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 10:37:28,752 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 10:37:55,152 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 10:38:23,738 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:02:24,380 - database - INFO - Database setup completed successfully
+2025-05-26 11:02:24,393 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-26 11:02:24,455 - discord.client - INFO - logging in using static token
+2025-05-26 11:02:25,796 - AdminCog - INFO - Admin ID loaded: 1035189920488235120
+2025-05-26 11:02:25,797 - cogs.admin - INFO - Admin cog loaded successfully at 2025-05-26 04:02:25 UTC
+2025-05-26 11:02:25,797 - __main__ - INFO - ✅ Loaded extension: cogs.admin
+2025-05-26 11:02:25,826 - LiveStock - INFO - LiveStock cog loaded and task started
+2025-05-26 11:02:25,826 - root - INFO - LiveStock cog loaded successfully
+2025-05-26 11:02:25,826 - __main__ - INFO - ✅ Loaded extension: ext.live_stock
+2025-05-26 11:02:25,830 - root - INFO - Transaction cog loaded successfully at 2025-05-26 04:02:25 UTC
+2025-05-26 11:02:25,831 - __main__ - INFO - ✅ Loaded extension: ext.trx
+2025-05-26 11:02:25,841 - __main__ - INFO - ✅ Loaded extension: ext.donate
+2025-05-26 11:02:25,846 - BalanceManagerCog - INFO - BalanceManagerCog loading...
+2025-05-26 11:02:25,847 - root - INFO - BalanceManager cog loaded successfully at 2025-05-26 04:02:25 UTC
+2025-05-26 11:02:25,847 - __main__ - INFO - ✅ Loaded extension: ext.balance_manager
+2025-05-26 11:02:25,851 - ProductManagerCog - INFO - ProductManagerCog loading...
+2025-05-26 11:02:25,852 - root - INFO - ProductManager cog loaded successfully at 2025-05-26 04:02:25 UTC
+2025-05-26 11:02:25,852 - __main__ - INFO - ✅ Loaded extension: ext.product_manager
+2025-05-26 11:02:26,810 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 98662a6b18193c9ad8ddaaa12d819825).
+2025-05-26 11:02:28,862 - __main__ - INFO - Bot Fdy is ready!
+2025-05-26 11:02:28,863 - __main__ - INFO - Bot ID: 1319288311881142323
+2025-05-26 11:02:28,863 - __main__ - INFO - Guild ID: 1318806349118963722
+2025-05-26 11:02:28,863 - __main__ - INFO - Admin ID: 1035189920488235120
+2025-05-26 11:02:28,863 - __main__ - INFO - ✅ Found Live Stock channel: 📜⌗・live-stock
+2025-05-26 11:02:28,863 - __main__ - INFO - ✅ Found Purchase Log channel: log-purch
+2025-05-26 11:02:28,864 - __main__ - INFO - ✅ Found Donation Log channel: deposit
+2025-05-26 11:02:28,864 - __main__ - INFO - ✅ Found History Buy channel: buy-logs
+2025-05-26 11:02:28,864 - __main__ - INFO - ✅ Found Music channel: 🔔⌗・music
+2025-05-26 11:02:28,864 - __main__ - INFO - ✅ Found Logs channel: 🔔⌗・logs
+2025-05-26 11:02:28,865 - TransactionCog - INFO - TransactionCog is ready at 2025-05-26 04:02:28 UTC
+2025-05-26 11:02:28,866 - BalanceManagerCog - INFO - BalanceManagerCog is ready at 2025-05-26 04:02:28 UTC
+2025-05-26 11:02:29,332 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:03:23,912 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:04:18,914 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:05:13,930 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:06:08,917 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:07:03,881 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:07:58,916 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:08:53,911 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:09:48,984 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:10:43,942 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:11:38,970 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:12:33,969 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:13:28,903 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:14:23,892 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:15:57,495 - database - INFO - Database setup completed successfully
+2025-05-26 11:15:57,504 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-26 11:15:57,566 - asyncio - DEBUG - Using selector: EpollSelector
+2025-05-26 11:15:57,570 - discord.client - INFO - logging in using static token
+2025-05-26 11:15:57,579 - asyncio - DEBUG - Using selector: EpollSelector
+2025-05-26 11:15:58,802 - AdminCog - INFO - Admin ID loaded: 1035189920488235120
+2025-05-26 11:15:58,803 - cogs.admin - INFO - Admin cog loaded successfully at 2025-05-26 04:15:58 UTC
+2025-05-26 11:15:58,804 - __main__ - INFO - ✅ Loaded extension: cogs.admin
+2025-05-26 11:15:58,860 - LiveStock - INFO - LiveStock cog loaded and task started
+2025-05-26 11:15:58,860 - root - INFO - LiveStock cog loaded successfully
+2025-05-26 11:15:58,861 - __main__ - INFO - ✅ Loaded extension: ext.live_stock
+2025-05-26 11:15:58,865 - root - INFO - Transaction cog loaded successfully at 2025-05-26 04:15:58 UTC
+2025-05-26 11:15:58,865 - __main__ - INFO - ✅ Loaded extension: ext.trx
+2025-05-26 11:15:58,873 - __main__ - INFO - ✅ Loaded extension: ext.donate
+2025-05-26 11:15:58,878 - BalanceManagerCog - INFO - BalanceManagerCog loading...
+2025-05-26 11:15:58,878 - root - INFO - BalanceManager cog loaded successfully at 2025-05-26 04:15:58 UTC
+2025-05-26 11:15:58,879 - __main__ - INFO - ✅ Loaded extension: ext.balance_manager
+2025-05-26 11:15:58,885 - ProductManagerCog - INFO - ProductManagerCog loading...
+2025-05-26 11:15:58,885 - root - INFO - ProductManager cog loaded successfully at 2025-05-26 04:15:58 UTC
+2025-05-26 11:15:58,886 - __main__ - INFO - ✅ Loaded extension: ext.product_manager
+2025-05-26 11:15:59,770 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6b6c60dc5e321f0154fa2433960ee404).
+2025-05-26 11:16:01,849 - __main__ - INFO - Bot Fdy is ready!
+2025-05-26 11:16:01,849 - __main__ - INFO - Bot ID: 1319288311881142323
+2025-05-26 11:16:01,850 - __main__ - INFO - Guild ID: 1318806349118963722
+2025-05-26 11:16:01,850 - __main__ - INFO - Admin ID: 1035189920488235120
+2025-05-26 11:16:01,850 - __main__ - INFO - ✅ Found Live Stock channel: 📜⌗・live-stock
+2025-05-26 11:16:01,850 - __main__ - INFO - ✅ Found Purchase Log channel: log-purch
+2025-05-26 11:16:01,850 - __main__ - INFO - ✅ Found Donation Log channel: deposit
+2025-05-26 11:16:01,850 - __main__ - INFO - ✅ Found History Buy channel: buy-logs
+2025-05-26 11:16:01,850 - __main__ - INFO - ✅ Found Music channel: 🔔⌗・music
+2025-05-26 11:16:01,850 - __main__ - INFO - ✅ Found Logs channel: 🔔⌗・logs
+2025-05-26 11:16:01,851 - TransactionCog - INFO - TransactionCog is ready at 2025-05-26 04:16:01 UTC
+2025-05-26 11:16:01,852 - BalanceManagerCog - INFO - BalanceManagerCog is ready at 2025-05-26 04:16:01 UTC
+2025-05-26 11:16:02,268 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:16:02,688 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 11:16:56,897 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:16:57,611 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 11:17:51,930 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:17:52,686 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 11:18:46,904 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:18:47,546 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 11:19:41,902 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:19:42,610 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 11:20:36,934 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 11:20:37,644 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:19:44,298 - database - INFO - Database setup completed successfully
+2025-05-26 12:19:44,305 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-26 12:19:44,364 - asyncio - DEBUG - Using selector: EpollSelector
+2025-05-26 12:19:44,368 - discord.client - INFO - logging in using static token
+2025-05-26 12:19:44,376 - asyncio - DEBUG - Using selector: EpollSelector
+2025-05-26 12:19:45,520 - AdminCog - INFO - Admin ID loaded: 1035189920488235120
+2025-05-26 12:19:45,521 - cogs.admin - INFO - Admin cog loaded successfully at 2025-05-26 05:19:45 UTC
+2025-05-26 12:19:45,522 - __main__ - INFO - ✅ Loaded extension: cogs.admin
+2025-05-26 12:19:45,554 - LiveStock - INFO - LiveStock cog loaded and task started
+2025-05-26 12:19:45,555 - root - INFO - LiveStock cog loaded successfully
+2025-05-26 12:19:45,555 - __main__ - INFO - ✅ Loaded extension: ext.live_stock
+2025-05-26 12:19:45,559 - root - INFO - Transaction cog loaded successfully at 2025-05-26 05:19:45 UTC
+2025-05-26 12:19:45,559 - __main__ - INFO - ✅ Loaded extension: ext.trx
+2025-05-26 12:19:45,566 - __main__ - INFO - ✅ Loaded extension: ext.donate
+2025-05-26 12:19:45,570 - BalanceManagerCog - INFO - BalanceManagerCog loading...
+2025-05-26 12:19:45,571 - root - INFO - BalanceManager cog loaded successfully at 2025-05-26 05:19:45 UTC
+2025-05-26 12:19:45,571 - __main__ - INFO - ✅ Loaded extension: ext.balance_manager
+2025-05-26 12:19:45,576 - ProductManagerCog - INFO - ProductManagerCog loading...
+2025-05-26 12:19:45,576 - root - INFO - ProductManager cog loaded successfully at 2025-05-26 05:19:45 UTC
+2025-05-26 12:19:45,577 - __main__ - INFO - ✅ Loaded extension: ext.product_manager
+2025-05-26 12:19:46,397 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c3ebad41707fe861f3f492c883101c6b).
+2025-05-26 12:19:48,499 - __main__ - INFO - Bot Fdy is ready!
+2025-05-26 12:19:48,500 - __main__ - INFO - Bot ID: 1319288311881142323
+2025-05-26 12:19:48,500 - __main__ - INFO - Guild ID: 1318806349118963722
+2025-05-26 12:19:48,500 - __main__ - INFO - Admin ID: 1035189920488235120
+2025-05-26 12:19:48,500 - __main__ - INFO - ✅ Found Live Stock channel: 📜⌗・live-stock
+2025-05-26 12:19:48,501 - __main__ - INFO - ✅ Found Purchase Log channel: log-purch
+2025-05-26 12:19:48,501 - __main__ - INFO - ✅ Found Donation Log channel: deposit
+2025-05-26 12:19:48,501 - __main__ - INFO - ✅ Found History Buy channel: buy-logs
+2025-05-26 12:19:48,501 - __main__ - INFO - ✅ Found Music channel: 🔔⌗・music
+2025-05-26 12:19:48,501 - __main__ - INFO - ✅ Found Logs channel: 🔔⌗・logs
+2025-05-26 12:19:48,502 - TransactionCog - INFO - TransactionCog is ready at 2025-05-26 05:19:48 UTC
+2025-05-26 12:19:48,503 - BalanceManagerCog - INFO - BalanceManagerCog is ready at 2025-05-26 05:19:48 UTC
+2025-05-26 12:19:49,106 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:19:49,567 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:20:43,541 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:20:44,212 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:21:38,577 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:21:39,290 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:22:33,523 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:22:34,107 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:23:28,521 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:23:29,228 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:24:23,531 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:24:24,110 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:25:18,542 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:25:19,143 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:26:13,532 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:26:14,140 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:27:08,571 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:27:09,339 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:28:03,552 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:28:04,140 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:28:58,560 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:28:59,101 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:29:53,524 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:29:54,134 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:30:48,541 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:30:49,137 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:31:43,529 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:31:44,200 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:32:38,583 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:32:39,288 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:33:35,844 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:33:36,378 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:34:23,573 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 39.7s behind.
+2025-05-26 12:35:25,989 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 10.7s behind.
+2025-05-26 12:35:43,887 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:35:44,610 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:35:44,623 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:35:45,092 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:36:16,833 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 37.1s behind.
+2025-05-26 12:36:36,745 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:36:37,328 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:37:15,024 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:37:15,599 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:38:02,228 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 32.4s behind.
+2025-05-26 12:38:26,439 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:38:27,046 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:39:01,467 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 38.5s behind.
+2025-05-26 12:39:49,033 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:39:49,847 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:39:58,531 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:39:58,976 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:40:28,283 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 29.4s behind.
+2025-05-26 12:41:17,631 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:41:18,221 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:41:31,711 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 40.0s behind.
+2025-05-26 12:43:23,590 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 13.5s behind.
+2025-05-26 12:44:13,361 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 19.4s behind.
+2025-05-26 12:44:20,636 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:44:21,178 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:44:21,194 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:44:21,578 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:44:21,602 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:44:22,152 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:44:44,739 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:44:45,195 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:45:28,557 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:45:29,302 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:46:23,540 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:46:24,149 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:47:18,538 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:47:19,050 - LiveStock - DEBUG - Updated message 1375673079241642126
+2025-05-26 12:48:13,510 - LiveStockService - INFO - Live Stock Update - Product: fr, Stock Count: 0
+2025-05-26 12:48:14,116 - LiveStock - DEBUG - Updated message 1375673079241642126

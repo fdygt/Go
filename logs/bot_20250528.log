@@ -1,0 +1,4180 @@
+2025-05-28 08:11:29,898 UTC - __main__ - INFO - [User: fdygg]
+Message: 
+        Starting application:
+        Time: 2025-05-28 01:11:29 UTC
+        User: fdygg
+        Python Version: 3.12.10 (main, Apr  9 2025, 18:13:11) [Clang 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456
+        
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 369
+Details: None
+
+2025-05-28 08:11:29,899 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Loading configuration file...
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 82
+Details: None
+
+2025-05-28 08:11:29,904 UTC - __main__ - INFO - [User: fdygg]
+Message: Configuration loaded successfully
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 99
+Details: None
+
+2025-05-28 08:11:29,904 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up database...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 380
+Details: None
+
+2025-05-28 08:11:29,925 UTC - database - INFO - [User: fdygg]
+Message: Database setup completed successfully
+Path: /storage/emulated/0/test/database.py
+Function: setup_database
+Line: 261
+Details: None
+
+2025-05-28 08:11:29,933 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Creating bot instance...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 384
+Details: None
+
+2025-05-28 08:11:29,937 UTC - discord.client - WARNING - [User: fdygg]
+Message: PyNaCl is not installed, voice will NOT be supported
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: __init__
+Line: 318
+Details: None
+
+2025-05-28 08:11:29,939 UTC - __main__ - DEBUG - [User: fdygg]
+Message: 
+        Bot initialized with:
+        Admin ID: 1035189920488235120
+        Guild ID: 1318806349118963722
+        Live Stock Channel: 1318806350310146114
+        Purchase Log Channel: 1318806351228698683
+        Donation Log Channel: 1318806351228698680
+        History Buy Channel: 1318806351228698682
+        Startup Time: 2025-05-28 01:11:29.939103+00:00
+        
+Path: /storage/emulated/0/test/main.py
+Function: __init__
+Line: 142
+Details: None
+
+2025-05-28 08:11:29,940 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up API server...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 388
+Details: None
+
+2025-05-28 08:11:29,940 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        Creating API server:
+        Time: 2025-05-28 01:11:29 UTC
+        Bot Type: MyBot
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 321
+Details: None
+
+2025-05-28 08:11:29,945 UTC - api.server - DEBUG - [User: fdygg]
+Message: Setting up API routes and middleware
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 91
+Details: None
+
+2025-05-28 08:11:29,946 UTC - api.dependencies - DEBUG - [User: fdygg]
+Message: 
+            Setting bot instance:
+            Bot: MyBot
+            Time: 2025-05-28 01:11:29 UTC
+            
+Path: /storage/emulated/0/test/api/dependencies.py
+Function: set_bot
+Line: 18
+Details: None
+
+2025-05-28 08:11:29,974 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Setting up API middleware and error handlers...
+    Time: 2025-05-28 01:11:29 UTC
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 314
+Details: None
+
+2025-05-28 08:11:29,974 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+        Middleware setup completed:
+        Time: 2025-05-28 01:11:29 UTC
+        Public Endpoints: ['/', '/docs', '/redoc', '/favicon.ico', '/static', '/login', '/api/v1/health', '/api/v1/auth/token', '/api/v1/openapi.json', '/api/v1/dashboard', '/api/v1/login', '/dashboard', '/health', '/auth/token', '/openapi.json']
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 331
+Details: None
+
+2025-05-28 08:11:29,977 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            API routes and middleware setup completed:
+            Time: 2025-05-28 01:11:29 UTC
+            Total Routes: 19
+            Auth Enabled: True
+            CORS Enabled: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 230
+Details: None
+
+2025-05-28 08:11:30,011 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        API Server initialized:
+        Time: 2025-05-28 01:11:29 UTC
+        Bot: MyBot
+        FastAPI App: FastAPI
+        Version: 1.0.0
+        Python: 3.12.10
+        OS: Linux-5.4.254-android12-9-g86b20c4f85e6-ab939-aarch64-with-libc
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: __init__
+Line: 43
+Details: None
+
+2025-05-28 08:11:30,012 UTC - api.server - INFO - [User: fdygg]
+Message: 
+        API server thread started:
+        Time: 2025-05-28 01:11:30 UTC
+        Thread ID: 536941341952
+        Thread Name: APIServerThread
+        Status: Running
+        Version: 1.0.0
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 337
+Details: None
+
+2025-05-28 08:11:30,014 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            Starting API server:
+            Time: 2025-05-28 01:11:30 UTC
+            Host: 0.0.0.0
+            Port: 8080
+            Debug: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: run
+Line: 297
+Details: None
+
+2025-05-28 08:11:30,016 UTC - __main__ - INFO - [User: fdygg]
+Message: Starting bot...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 392
+Details: None
+
+2025-05-28 08:11:30,017 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 08:11:30,018 UTC - discord.client - INFO - [User: fdygg]
+Message: logging in using static token
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: login
+Line: 643
+Details: None
+
+2025-05-28 08:11:30,042 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 08:11:30,150 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Started server process [32758]
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _serve
+Line: 83
+Details: None
+
+2025-05-28 08:11:30,151 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Waiting for application startup.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 48
+Details: None
+
+2025-05-28 08:11:30,152 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Application startup complete.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 62
+Details: None
+
+2025-05-28 08:11:30,153 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _log_started_message
+Line: 215
+Details: None
+
+2025-05-28 08:11:30,845 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up bot components...
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 156
+Details: None
+
+2025-05-28 08:11:30,849 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Command handler initialized
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 162
+Details: None
+
+2025-05-28 08:11:30,850 UTC - __main__ - DEBUG - [User: fdygg]
+Message: aiohttp session created
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 166
+Details: None
+
+2025-05-28 08:11:30,880 UTC - __main__ - ERROR - [User: fdygg]
+Message: 
+                    Failed to load extension:
+                    Extension: cogs.admin
+                    Error: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+                    Time: 2025-05-28 01:11:30 UTC
+                    Stack Trace:
+                    Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/storage/emulated/0/test/cogs/admin.py", line 15, in <module>
+    from api.config import API_SECRET_KEY
+ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/storage/emulated/0/test/main.py", line 180, in setup_hook
+    await self.load_extension(ext)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+                    
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 183
+Details: None
+
+2025-05-28 08:11:30,929 UTC - LiveStock - INFO - [User: fdygg]
+Message: LiveStock cog loaded and task started
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: cog_load
+Line: 32
+Details: None
+
+2025-05-28 08:11:30,929 UTC - root - INFO - [User: fdygg]
+Message: LiveStock cog loaded successfully
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: setup
+Line: 105
+Details: None
+
+2025-05-28 08:11:30,930 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.live_stock
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:11:30,936 UTC - root - INFO - [User: fdygg]
+Message: Transaction cog loaded successfully at 2025-05-28 01:11:30 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: setup
+Line: 342
+Details: None
+
+2025-05-28 08:11:30,937 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.trx
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:11:30,948 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.donate
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:11:30,955 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog loading...
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: cog_load
+Line: 451
+Details: None
+
+2025-05-28 08:11:30,956 UTC - root - INFO - [User: fdygg]
+Message: BalanceManager cog loaded successfully at 2025-05-28 01:11:30 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: setup
+Line: 464
+Details: None
+
+2025-05-28 08:11:30,956 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.balance_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:11:30,962 UTC - ProductManagerCog - INFO - [User: fdygg]
+Message: ProductManagerCog loading...
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: cog_load
+Line: 555
+Details: None
+
+2025-05-28 08:11:30,963 UTC - root - INFO - [User: fdygg]
+Message: ProductManager cog loaded successfully at 2025-05-28 01:11:30 UTC
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: setup
+Line: 568
+Details: None
+
+2025-05-28 08:11:30,963 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.product_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:11:31,750 UTC - discord.gateway - INFO - [User: fdygg]
+Message: Shard ID None has connected to Gateway (Session ID: 53a58ff7909dfc343b30e3476be9a1ea).
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/gateway.py
+Function: received_message
+Line: 562
+Details: None
+
+2025-05-28 08:11:33,766 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot Fdy is ready!
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 213
+Details: None
+
+2025-05-28 08:11:33,767 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot ID: 1319288311881142323
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 214
+Details: None
+
+2025-05-28 08:11:33,767 UTC - __main__ - INFO - [User: fdygg]
+Message: Guild ID: 1318806349118963722
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 215
+Details: None
+
+2025-05-28 08:11:33,767 UTC - __main__ - INFO - [User: fdygg]
+Message: Admin ID: 1035189920488235120
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 216
+Details: None
+
+2025-05-28 08:11:33,767 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Live Stock channel: 📜⌗・live-stock
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:11:33,768 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Purchase Log channel: log-purch
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:11:33,768 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Donation Log channel: deposit
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:11:33,768 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found History Buy channel: buy-logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:11:33,768 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Music channel: 🔔⌗・music
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:11:33,768 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Logs channel: 🔔⌗・logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:11:33,769 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Bot status updated
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 248
+Details: None
+
+2025-05-28 08:11:33,769 UTC - TransactionCog - INFO - [User: fdygg]
+Message: TransactionCog is ready at 2025-05-28 01:11:33 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: on_ready
+Line: 335
+Details: None
+
+2025-05-28 08:11:33,770 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog is ready at 2025-05-28 01:11:33 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: on_ready
+Line: 447
+Details: None
+
+2025-05-28 08:11:34,196 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:11:34,619 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:11:46,342 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    [c5ca4321-b1ed-4d1e-affe-dd553dfd3d8c] Incoming Request:
+    Time: 2025-05-28 01:11:46 UTC
+    Method: GET
+    URL: http://localhost:8080/login
+    Path: /login
+    Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform': '"Android"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+    Query Params: {}
+    Client: Address(host='127.0.0.1', port=41118)
+    Client Host: 127.0.0.1
+    Client Port: 41118
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 169
+Details: None
+
+2025-05-28 08:11:46,344 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 01:11:46 UTC
+    Path: /login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 46
+Details: None
+
+2025-05-28 08:11:46,344 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Auth Check:
+    Time: 2025-05-28 01:11:46 UTC
+    Path: /login
+    Is Public: True
+    In PUBLIC_ENDPOINTS: True
+    Has skip_auth: False
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 108
+Details: None
+
+2025-05-28 08:11:46,344 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 01:11:46 UTC
+    Path: /login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 46
+Details: None
+
+2025-05-28 08:11:46,345 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+        Skipping auth for public endpoint:
+        Time: 2025-05-28 01:11:46 UTC
+        Path: /login
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 120
+Details: None
+
+2025-05-28 08:11:46,345 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 01:11:46 UTC
+    Path: /login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 46
+Details: None
+
+2025-05-28 08:11:46,348 UTC - api.middleware - ERROR - [User: fdygg]
+Message: 
+        [c5ca4321-b1ed-4d1e-affe-dd553dfd3d8c] Response:
+        Status: 404
+        Process Time: 0.0057 sec
+        Headers: {'content-length': '22', 'content-type': 'application/json', 'X-Request-ID': 'c5ca4321-b1ed-4d1e-affe-dd553dfd3d8c', 'X-Process-Time': '0.0057', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+        Content-Type: application/json
+        Body: {'detail': 'Not Found'}
+        Time: 2025-05-28 01:11:46 UTC
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 240
+Details: None
+
+2025-05-28 08:11:46,419 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    [4de5a4b3-2a06-41c6-9bf1-2e940f36c60a] Incoming Request:
+    Time: 2025-05-28 01:11:46 UTC
+    Method: GET
+    URL: http://localhost:8080/favicon.ico
+    Path: /favicon.ico
+    Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?1', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://localhost:8080/login', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6', 'if-none-match': '"a94474f7c89b7b715951f7a5ff9e66f3"', 'if-modified-since': 'Tue, 27 May 2025 15:04:24 GMT'}
+    Query Params: {}
+    Client: Address(host='127.0.0.1', port=41118)
+    Client Host: 127.0.0.1
+    Client Port: 41118
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 169
+Details: None
+
+2025-05-28 08:11:46,421 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 01:11:46 UTC
+    Path: /favicon.ico
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 46
+Details: None
+
+2025-05-28 08:11:46,422 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Auth Check:
+    Time: 2025-05-28 01:11:46 UTC
+    Path: /favicon.ico
+    Is Public: True
+    In PUBLIC_ENDPOINTS: True
+    Has skip_auth: False
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 108
+Details: None
+
+2025-05-28 08:11:46,422 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 01:11:46 UTC
+    Path: /favicon.ico
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 46
+Details: None
+
+2025-05-28 08:11:46,423 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+        Skipping auth for public endpoint:
+        Time: 2025-05-28 01:11:46 UTC
+        Path: /favicon.ico
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 120
+Details: None
+
+2025-05-28 08:11:46,424 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 01:11:46 UTC
+    Path: /favicon.ico
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 46
+Details: None
+
+2025-05-28 08:11:46,442 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+        [4de5a4b3-2a06-41c6-9bf1-2e940f36c60a] Response:
+        Status: 200
+        Process Time: 0.0190 sec
+        Headers: {'content-type': 'image/vnd.microsoft.icon', 'accept-ranges': 'bytes', 'content-length': '1187', 'last-modified': 'Tue, 27 May 2025 15:04:24 GMT', 'etag': '"a94474f7c89b7b715951f7a5ff9e66f3"', 'X-Request-ID': '4de5a4b3-2a06-41c6-9bf1-2e940f36c60a', 'X-Process-Time': '0.0190', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+        Content-Type: image/vnd.microsoft.icon
+        Body: 
+        Time: 2025-05-28 01:11:46 UTC
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 240
+Details: None
+
+2025-05-28 08:12:28,857 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:12:29,449 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:13:23,867 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:13:24,381 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:20:38,139 UTC - __main__ - INFO - [User: fdygg]
+Message: 
+        Starting application:
+        Time: 2025-05-28 01:20:38 UTC
+        User: fdygg
+        Python Version: 3.12.10 (main, Apr  9 2025, 18:13:11) [Clang 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456
+        
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 369
+Details: None
+
+2025-05-28 08:20:38,144 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Loading configuration file...
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 82
+Details: None
+
+2025-05-28 08:20:38,149 UTC - __main__ - INFO - [User: fdygg]
+Message: Configuration loaded successfully
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 99
+Details: None
+
+2025-05-28 08:20:38,149 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up database...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 380
+Details: None
+
+2025-05-28 08:20:38,176 UTC - database - INFO - [User: fdygg]
+Message: Database setup completed successfully
+Path: /storage/emulated/0/test/database.py
+Function: setup_database
+Line: 261
+Details: None
+
+2025-05-28 08:20:38,182 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Creating bot instance...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 384
+Details: None
+
+2025-05-28 08:20:38,186 UTC - discord.client - WARNING - [User: fdygg]
+Message: PyNaCl is not installed, voice will NOT be supported
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: __init__
+Line: 318
+Details: None
+
+2025-05-28 08:20:38,187 UTC - __main__ - DEBUG - [User: fdygg]
+Message: 
+        Bot initialized with:
+        Admin ID: 1035189920488235120
+        Guild ID: 1318806349118963722
+        Live Stock Channel: 1318806350310146114
+        Purchase Log Channel: 1318806351228698683
+        Donation Log Channel: 1318806351228698680
+        History Buy Channel: 1318806351228698682
+        Startup Time: 2025-05-28 01:20:38.187444+00:00
+        
+Path: /storage/emulated/0/test/main.py
+Function: __init__
+Line: 142
+Details: None
+
+2025-05-28 08:20:38,188 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up API server...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 388
+Details: None
+
+2025-05-28 08:20:38,188 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        Creating API server:
+        Time: 2025-05-28 01:20:38 UTC
+        Bot Type: MyBot
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 321
+Details: None
+
+2025-05-28 08:20:38,190 UTC - api.server - DEBUG - [User: fdygg]
+Message: Setting up API routes and middleware
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 91
+Details: None
+
+2025-05-28 08:20:38,190 UTC - api.dependencies - DEBUG - [User: fdygg]
+Message: 
+            Setting bot instance:
+            Bot: MyBot
+            Time: 2025-05-28 01:20:38 UTC
+            
+Path: /storage/emulated/0/test/api/dependencies.py
+Function: set_bot
+Line: 18
+Details: None
+
+2025-05-28 08:20:38,220 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Message:
+    Time: 2025-05-28 01:20:38 UTC
+    Setting up API middleware and error handlers...
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 311
+Details: None
+
+2025-05-28 08:20:38,220 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+    Message:
+    Time: 2025-05-28 01:20:38 UTC
+    Middleware setup completed:
+        Public Endpoints: ['/', '/docs', '/redoc', '/favicon.ico', '/static', '/login', '/api/v1/health', '/api/v1/auth/token', '/api/v1/openapi.json', '/api/v1/dashboard', '/api/v1/login', '/dashboard', '/health', '/auth/token', '/openapi.json']
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 323
+Details: None
+
+2025-05-28 08:20:38,223 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            API routes and middleware setup completed:
+            Time: 2025-05-28 01:20:38 UTC
+            Total Routes: 19
+            Auth Enabled: True
+            CORS Enabled: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 230
+Details: None
+
+2025-05-28 08:20:38,265 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        API Server initialized:
+        Time: 2025-05-28 01:20:38 UTC
+        Bot: MyBot
+        FastAPI App: FastAPI
+        Version: 1.0.0
+        Python: 3.12.10
+        OS: Linux-5.4.254-android12-9-g86b20c4f85e6-ab939-aarch64-with-libc
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: __init__
+Line: 43
+Details: None
+
+2025-05-28 08:20:38,268 UTC - api.server - INFO - [User: fdygg]
+Message: 
+        API server thread started:
+        Time: 2025-05-28 01:20:38 UTC
+        Thread ID: 528997309696
+        Thread Name: APIServerThread
+        Status: Running
+        Version: 1.0.0
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 337
+Details: None
+
+2025-05-28 08:20:38,272 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            Starting API server:
+            Time: 2025-05-28 01:20:38 UTC
+            Host: 0.0.0.0
+            Port: 8080
+            Debug: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: run
+Line: 297
+Details: None
+
+2025-05-28 08:20:38,275 UTC - __main__ - INFO - [User: fdygg]
+Message: Starting bot...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 392
+Details: None
+
+2025-05-28 08:20:38,279 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 08:20:38,280 UTC - discord.client - INFO - [User: fdygg]
+Message: logging in using static token
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: login
+Line: 643
+Details: None
+
+2025-05-28 08:20:38,289 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 08:20:38,386 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Started server process [8050]
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _serve
+Line: 83
+Details: None
+
+2025-05-28 08:20:38,387 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Waiting for application startup.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 48
+Details: None
+
+2025-05-28 08:20:38,388 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Application startup complete.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 62
+Details: None
+
+2025-05-28 08:20:38,389 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _log_started_message
+Line: 215
+Details: None
+
+2025-05-28 08:20:39,161 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up bot components...
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 156
+Details: None
+
+2025-05-28 08:20:39,165 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Command handler initialized
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 162
+Details: None
+
+2025-05-28 08:20:39,166 UTC - __main__ - DEBUG - [User: fdygg]
+Message: aiohttp session created
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 166
+Details: None
+
+2025-05-28 08:20:39,198 UTC - __main__ - ERROR - [User: fdygg]
+Message: 
+                    Failed to load extension:
+                    Extension: cogs.admin
+                    Error: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+                    Time: 2025-05-28 01:20:39 UTC
+                    Stack Trace:
+                    Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/storage/emulated/0/test/cogs/admin.py", line 15, in <module>
+    from api.config import API_SECRET_KEY
+ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/storage/emulated/0/test/main.py", line 180, in setup_hook
+    await self.load_extension(ext)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+                    
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 183
+Details: None
+
+2025-05-28 08:20:39,244 UTC - LiveStock - INFO - [User: fdygg]
+Message: LiveStock cog loaded and task started
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: cog_load
+Line: 32
+Details: None
+
+2025-05-28 08:20:39,245 UTC - root - INFO - [User: fdygg]
+Message: LiveStock cog loaded successfully
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: setup
+Line: 105
+Details: None
+
+2025-05-28 08:20:39,245 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.live_stock
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:20:39,250 UTC - root - INFO - [User: fdygg]
+Message: Transaction cog loaded successfully at 2025-05-28 01:20:39 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: setup
+Line: 342
+Details: None
+
+2025-05-28 08:20:39,250 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.trx
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:20:39,256 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.donate
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:20:39,261 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog loading...
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: cog_load
+Line: 451
+Details: None
+
+2025-05-28 08:20:39,261 UTC - root - INFO - [User: fdygg]
+Message: BalanceManager cog loaded successfully at 2025-05-28 01:20:39 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: setup
+Line: 464
+Details: None
+
+2025-05-28 08:20:39,261 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.balance_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:20:39,265 UTC - ProductManagerCog - INFO - [User: fdygg]
+Message: ProductManagerCog loading...
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: cog_load
+Line: 555
+Details: None
+
+2025-05-28 08:20:39,266 UTC - root - INFO - [User: fdygg]
+Message: ProductManager cog loaded successfully at 2025-05-28 01:20:39 UTC
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: setup
+Line: 568
+Details: None
+
+2025-05-28 08:20:39,266 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.product_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 08:20:40,029 UTC - discord.gateway - INFO - [User: fdygg]
+Message: Shard ID None has connected to Gateway (Session ID: 669eb7a744ecff73b5e676b6c520c028).
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/gateway.py
+Function: received_message
+Line: 562
+Details: None
+
+2025-05-28 08:20:42,055 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot Fdy is ready!
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 213
+Details: None
+
+2025-05-28 08:20:42,056 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot ID: 1319288311881142323
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 214
+Details: None
+
+2025-05-28 08:20:42,056 UTC - __main__ - INFO - [User: fdygg]
+Message: Guild ID: 1318806349118963722
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 215
+Details: None
+
+2025-05-28 08:20:42,056 UTC - __main__ - INFO - [User: fdygg]
+Message: Admin ID: 1035189920488235120
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 216
+Details: None
+
+2025-05-28 08:20:42,056 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Live Stock channel: 📜⌗・live-stock
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:20:42,056 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Purchase Log channel: log-purch
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:20:42,056 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Donation Log channel: deposit
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:20:42,057 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found History Buy channel: buy-logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:20:42,057 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Music channel: 🔔⌗・music
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:20:42,057 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Logs channel: 🔔⌗・logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 08:20:42,058 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Bot status updated
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 248
+Details: None
+
+2025-05-28 08:20:42,058 UTC - TransactionCog - INFO - [User: fdygg]
+Message: TransactionCog is ready at 2025-05-28 01:20:42 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: on_ready
+Line: 335
+Details: None
+
+2025-05-28 08:20:42,058 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog is ready at 2025-05-28 01:20:42 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: on_ready
+Line: 447
+Details: None
+
+2025-05-28 08:20:42,486 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:20:42,881 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:21:37,083 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:21:37,577 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:22:32,094 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:22:32,550 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:22:42,107 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    [21ad4715-90d6-44fb-9998-8872468029ec] Message:
+    Time: 2025-05-28 01:22:42 UTC
+    Incoming Request:
+    Method: GET
+    URL: http://localhost:8080/login
+    Path: /login
+    Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform': '"Android"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+    Query Params: {}
+    Client: Address(host='127.0.0.1', port=49314)
+    Client Host: 127.0.0.1
+    Client Port: 49314
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 178
+Details: None
+
+2025-05-28 08:22:42,113 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Message:
+    Time: 2025-05-28 01:22:42 UTC
+    Checking public endpoint:
+    Path: /login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 08:22:42,113 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Message:
+    Time: 2025-05-28 01:22:42 UTC
+    Auth Check:
+    Path: /login
+    Is Public: True
+    In PUBLIC_ENDPOINTS: True
+    Has skip_auth: False
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 126
+Details: None
+
+2025-05-28 08:22:42,114 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Message:
+    Time: 2025-05-28 01:22:42 UTC
+    Checking public endpoint:
+    Path: /login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 08:22:42,115 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Message:
+    Time: 2025-05-28 01:22:42 UTC
+    Skipping auth for public endpoint:
+        Path: /login
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 136
+Details: None
+
+2025-05-28 08:22:42,117 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Message:
+    Time: 2025-05-28 01:22:42 UTC
+    Checking public endpoint:
+    Path: /login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 08:22:42,123 UTC - api.middleware - ERROR - [User: fdygg]
+Message: 
+    [21ad4715-90d6-44fb-9998-8872468029ec] Message:
+    Time: 2025-05-28 01:22:42 UTC
+    Response:
+        Status: 404
+        Process Time: 0.0144 sec
+        Headers: {'content-length': '22', 'content-type': 'application/json', 'X-Request-ID': '21ad4715-90d6-44fb-9998-8872468029ec', 'X-Process-Time': '0.0144', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+        Content-Type: application/json
+        Body: {'detail': 'Not Found'}
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 246
+Details: None
+
+2025-05-28 08:23:27,161 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:23:27,731 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:24:22,105 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:24:22,663 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:25:17,165 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:25:17,718 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:26:12,131 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:26:13,814 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:27:07,162 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:27:08,801 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 08:28:02,117 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 08:28:02,591 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:47:36,843 UTC - __main__ - INFO - [User: fdygg]
+Message: 
+        Starting application:
+        Time: 2025-05-28 11:47:36 UTC
+        User: fdygg
+        Python Version: 3.12.10 (main, Apr  9 2025, 18:13:11) [Clang 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456
+        
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 369
+Details: None
+
+2025-05-28 18:47:36,844 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Loading configuration file...
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 82
+Details: None
+
+2025-05-28 18:47:36,849 UTC - __main__ - INFO - [User: fdygg]
+Message: Configuration loaded successfully
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 99
+Details: None
+
+2025-05-28 18:47:36,850 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up database...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 380
+Details: None
+
+2025-05-28 18:47:36,875 UTC - database - INFO - [User: fdygg]
+Message: Database setup completed successfully
+Path: /storage/emulated/0/test/database.py
+Function: setup_database
+Line: 261
+Details: None
+
+2025-05-28 18:47:36,881 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Creating bot instance...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 384
+Details: None
+
+2025-05-28 18:47:36,886 UTC - discord.client - WARNING - [User: fdygg]
+Message: PyNaCl is not installed, voice will NOT be supported
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: __init__
+Line: 318
+Details: None
+
+2025-05-28 18:47:36,888 UTC - __main__ - DEBUG - [User: fdygg]
+Message: 
+        Bot initialized with:
+        Admin ID: 1035189920488235120
+        Guild ID: 1318806349118963722
+        Live Stock Channel: 1318806350310146114
+        Purchase Log Channel: 1318806351228698683
+        Donation Log Channel: 1318806351228698680
+        History Buy Channel: 1318806351228698682
+        Startup Time: 2025-05-28 11:47:36.888155+00:00
+        
+Path: /storage/emulated/0/test/main.py
+Function: __init__
+Line: 142
+Details: None
+
+2025-05-28 18:47:36,889 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up API server...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 388
+Details: None
+
+2025-05-28 18:47:36,889 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        Creating API server:
+        Time: 2025-05-28 11:47:36 UTC
+        Bot Type: MyBot
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 321
+Details: None
+
+2025-05-28 18:47:36,891 UTC - api.server - DEBUG - [User: fdygg]
+Message: Setting up API routes and middleware
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 91
+Details: None
+
+2025-05-28 18:47:36,892 UTC - api.dependencies - DEBUG - [User: fdygg]
+Message: 
+            Setting bot instance:
+            Bot: MyBot
+            Time: 2025-05-28 11:47:36 UTC
+            
+Path: /storage/emulated/0/test/api/dependencies.py
+Function: set_bot
+Line: 18
+Details: None
+
+2025-05-28 18:47:36,918 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Setting up API middleware and error handlers...
+    Time: 2025-05-28 11:47:36 UTC
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 328
+Details: None
+
+2025-05-28 18:47:36,919 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+        Middleware setup completed:
+        Time: 2025-05-28 11:47:36 UTC
+        Public Endpoints: ['/', '/docs', '/redoc', '/favicon.ico', '/static', '/login', '/api/v1/health', '/api/v1/auth/token', '/api/v1/openapi.json', '/api/v1/dashboard', '/api/v1/login', '/dashboard', '/health', '/auth/token', '/openapi.json']
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 344
+Details: None
+
+2025-05-28 18:47:36,921 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            API routes and middleware setup completed:
+            Time: 2025-05-28 11:47:36 UTC
+            Total Routes: 19
+            Auth Enabled: True
+            CORS Enabled: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 230
+Details: None
+
+2025-05-28 18:47:36,956 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        API Server initialized:
+        Time: 2025-05-28 11:47:36 UTC
+        Bot: MyBot
+        FastAPI App: FastAPI
+        Version: 1.0.0
+        Python: 3.12.10
+        OS: Linux-5.4.254-android12-9-g86b20c4f85e6-ab939-aarch64-with-libc
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: __init__
+Line: 43
+Details: None
+
+2025-05-28 18:47:36,958 UTC - api.server - INFO - [User: fdygg]
+Message: 
+        API server thread started:
+        Time: 2025-05-28 11:47:36 UTC
+        Thread ID: 498808896768
+        Thread Name: APIServerThread
+        Status: Running
+        Version: 1.0.0
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 337
+Details: None
+
+2025-05-28 18:47:36,959 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            Starting API server:
+            Time: 2025-05-28 11:47:36 UTC
+            Host: 0.0.0.0
+            Port: 8080
+            Debug: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: run
+Line: 297
+Details: None
+
+2025-05-28 18:47:36,962 UTC - __main__ - INFO - [User: fdygg]
+Message: Starting bot...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 392
+Details: None
+
+2025-05-28 18:47:36,964 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 18:47:36,965 UTC - discord.client - INFO - [User: fdygg]
+Message: logging in using static token
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: login
+Line: 643
+Details: None
+
+2025-05-28 18:47:36,974 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 18:47:37,081 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Started server process [16567]
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _serve
+Line: 83
+Details: None
+
+2025-05-28 18:47:37,082 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Waiting for application startup.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 48
+Details: None
+
+2025-05-28 18:47:37,083 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Application startup complete.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 62
+Details: None
+
+2025-05-28 18:47:37,085 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _log_started_message
+Line: 215
+Details: None
+
+2025-05-28 18:47:37,847 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up bot components...
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 156
+Details: None
+
+2025-05-28 18:47:37,850 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Command handler initialized
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 162
+Details: None
+
+2025-05-28 18:47:37,851 UTC - __main__ - DEBUG - [User: fdygg]
+Message: aiohttp session created
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 166
+Details: None
+
+2025-05-28 18:47:37,896 UTC - __main__ - ERROR - [User: fdygg]
+Message: 
+                    Failed to load extension:
+                    Extension: cogs.admin
+                    Error: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+                    Time: 2025-05-28 11:47:37 UTC
+                    Stack Trace:
+                    Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/storage/emulated/0/test/cogs/admin.py", line 15, in <module>
+    from api.config import API_SECRET_KEY
+ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/storage/emulated/0/test/main.py", line 180, in setup_hook
+    await self.load_extension(ext)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+                    
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 183
+Details: None
+
+2025-05-28 18:47:37,943 UTC - LiveStock - INFO - [User: fdygg]
+Message: LiveStock cog loaded and task started
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: cog_load
+Line: 32
+Details: None
+
+2025-05-28 18:47:37,944 UTC - root - INFO - [User: fdygg]
+Message: LiveStock cog loaded successfully
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: setup
+Line: 105
+Details: None
+
+2025-05-28 18:47:37,944 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.live_stock
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 18:47:37,949 UTC - root - INFO - [User: fdygg]
+Message: Transaction cog loaded successfully at 2025-05-28 11:47:37 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: setup
+Line: 342
+Details: None
+
+2025-05-28 18:47:37,950 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.trx
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 18:47:37,975 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.donate
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 18:47:37,981 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog loading...
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: cog_load
+Line: 451
+Details: None
+
+2025-05-28 18:47:37,982 UTC - root - INFO - [User: fdygg]
+Message: BalanceManager cog loaded successfully at 2025-05-28 11:47:37 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: setup
+Line: 464
+Details: None
+
+2025-05-28 18:47:37,982 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.balance_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 18:47:37,987 UTC - ProductManagerCog - INFO - [User: fdygg]
+Message: ProductManagerCog loading...
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: cog_load
+Line: 555
+Details: None
+
+2025-05-28 18:47:37,987 UTC - root - INFO - [User: fdygg]
+Message: ProductManager cog loaded successfully at 2025-05-28 11:47:37 UTC
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: setup
+Line: 568
+Details: None
+
+2025-05-28 18:47:37,988 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.product_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 18:47:38,657 UTC - discord.gateway - INFO - [User: fdygg]
+Message: Shard ID None has connected to Gateway (Session ID: c97e06d815e1c512b2e202109a24ea94).
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/gateway.py
+Function: received_message
+Line: 562
+Details: None
+
+2025-05-28 18:47:40,737 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot Fdy is ready!
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 213
+Details: None
+
+2025-05-28 18:47:40,737 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot ID: 1319288311881142323
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 214
+Details: None
+
+2025-05-28 18:47:40,737 UTC - __main__ - INFO - [User: fdygg]
+Message: Guild ID: 1318806349118963722
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 215
+Details: None
+
+2025-05-28 18:47:40,737 UTC - __main__ - INFO - [User: fdygg]
+Message: Admin ID: 1035189920488235120
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 216
+Details: None
+
+2025-05-28 18:47:40,738 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Live Stock channel: 📜⌗・live-stock
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 18:47:40,738 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Purchase Log channel: log-purch
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 18:47:40,738 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Donation Log channel: deposit
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 18:47:40,738 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found History Buy channel: buy-logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 18:47:40,738 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Music channel: 🔔⌗・music
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 18:47:40,738 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Logs channel: 🔔⌗・logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 18:47:40,739 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Bot status updated
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 248
+Details: None
+
+2025-05-28 18:47:40,739 UTC - TransactionCog - INFO - [User: fdygg]
+Message: TransactionCog is ready at 2025-05-28 11:47:40 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: on_ready
+Line: 335
+Details: None
+
+2025-05-28 18:47:40,740 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog is ready at 2025-05-28 11:47:40 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: on_ready
+Line: 447
+Details: None
+
+2025-05-28 18:47:41,205 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:47:41,551 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:48:35,784 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:48:36,231 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:48:57,776 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    [ff9c50c1-2ed4-48a0-b171-0dcdfeadff11] Incoming Request:
+    Time: 2025-05-28 11:48:57 UTC
+    Method: POST
+    URL: http://localhost:8080/api/v1/login
+    Path: /api/v1/login
+    Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'content-length': '69', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'content-type': 'application/x-www-form-urlencoded', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+    Query Params: {}
+    Client: Address(host='127.0.0.1', port=60064)
+    Client Host: 127.0.0.1
+    Client Port: 60064
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 187
+Details: None
+
+2025-05-28 18:48:57,778 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:48:57 UTC
+    Path: /api/v1/login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:48:57,778 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Auth Check:
+    Time: 2025-05-28 11:48:57 UTC
+    Path: /api/v1/login
+    Is Public: True
+    In PUBLIC_ENDPOINTS: True
+    Has skip_auth: False
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 127
+Details: None
+
+2025-05-28 18:48:57,779 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:48:57 UTC
+    Path: /api/v1/login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:48:57,779 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+        Skipping auth for public endpoint:
+        Time: 2025-05-28 11:48:57 UTC
+        Path: /api/v1/login
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 139
+Details: None
+
+2025-05-28 18:48:57,780 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:48:57 UTC
+    Path: /api/v1/login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:48:57,783 UTC - api.middleware - ERROR - [User: fdygg]
+Message: 
+        [ff9c50c1-2ed4-48a0-b171-0dcdfeadff11] Response:
+        Time: 2025-05-28 11:48:57 UTC
+        Status: 404
+        Process Time: 0.0070 sec
+        Headers: {'content-length': '22', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'X-Request-ID', 'X-Request-ID': 'ff9c50c1-2ed4-48a0-b171-0dcdfeadff11', 'X-Process-Time': '0.0070', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+        Content-Type: application/json
+        Body: {'detail': 'Not Found'}
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 257
+Details: None
+
+2025-05-28 18:49:02,023 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    [c5e8f708-af8e-40ad-bce5-87390670a3f6] Incoming Request:
+    Time: 2025-05-28 11:49:02 UTC
+    Method: GET
+    URL: http://localhost:8080/api/v1/health
+    Path: /api/v1/health
+    Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+    Query Params: {}
+    Client: Address(host='127.0.0.1', port=60064)
+    Client Host: 127.0.0.1
+    Client Port: 60064
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 187
+Details: None
+
+2025-05-28 18:49:02,024 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:02 UTC
+    Path: /api/v1/health
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:02,024 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Auth Check:
+    Time: 2025-05-28 11:49:02 UTC
+    Path: /api/v1/health
+    Is Public: True
+    In PUBLIC_ENDPOINTS: True
+    Has skip_auth: False
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 127
+Details: None
+
+2025-05-28 18:49:02,024 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:02 UTC
+    Path: /api/v1/health
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:02,024 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+        Skipping auth for public endpoint:
+        Time: 2025-05-28 11:49:02 UTC
+        Path: /api/v1/health
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 139
+Details: None
+
+2025-05-28 18:49:02,025 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:02 UTC
+    Path: /api/v1/health
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:02,027 UTC - api.routes - INFO - [User: fdygg]
+Message: 
+        Health check:
+        Time: 2025-05-28 11:49:02 UTC
+        IP: 127.0.0.1
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/routes/__init__.py
+Function: health_check
+Line: 156
+Details: None
+
+2025-05-28 18:49:02,029 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+        [c5e8f708-af8e-40ad-bce5-87390670a3f6] Response:
+        Time: 2025-05-28 11:49:02 UTC
+        Status: 200
+        Process Time: 0.0051 sec
+        Headers: {'cache-control': 'no-cache, no-store, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'x-xss-protection': '1; mode=block', 'content-length': '1210', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'X-Request-ID', 'X-Request-ID': 'c5e8f708-af8e-40ad-bce5-87390670a3f6', 'X-Process-Time': '0.0051', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+        Content-Type: application/json
+        Body: {'status': 'ok', 'timestamp': '2025-05-28 11:49:02', 'user': 'fdygg', 'version': '1.0.0', 'system': {'python_version': '3.12.10 (main, Apr  9 2025, 18:13:11) [Clang 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456', 'platform': 'Linux-5.4.254-android12-9-g86b20c4f85e6-ab939-aarch64-with-libc', 'timezone': 'UTC', 'memory': {'total': 3834740736, 'available': 615137280, 'percent': 84.0}, 'disk': {'total': 3100590080, 'free': 0, 'percent': 100.0}, 'cpu_percent': 0.0}, 'endpoints': {'base': '/api/v1', 'balance': '/api/v1/balance', 'stock': '/api/v1/stock', 'transactions': '/api/v1/transactions', 'admin': '/api/v1/admin'}, 'client': {'host': '127.0.0.1', 'port': 60064, 'headers': {'host': 'localhost:8080', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}}}
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 257
+Details: None
+
+2025-05-28 18:49:08,619 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    [7f86d060-80c7-4836-8c4b-d9d2ce5b5618] Incoming Request:
+    Time: 2025-05-28 11:49:08 UTC
+    Method: GET
+    URL: http://localhost:8080/api/v1/dashboard
+    Path: /api/v1/dashboard
+    Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+    Query Params: {}
+    Client: Address(host='127.0.0.1', port=40126)
+    Client Host: 127.0.0.1
+    Client Port: 40126
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 187
+Details: None
+
+2025-05-28 18:49:08,620 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:08 UTC
+    Path: /api/v1/dashboard
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:08,621 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Auth Check:
+    Time: 2025-05-28 11:49:08 UTC
+    Path: /api/v1/dashboard
+    Is Public: True
+    In PUBLIC_ENDPOINTS: True
+    Has skip_auth: False
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 127
+Details: None
+
+2025-05-28 18:49:08,622 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:08 UTC
+    Path: /api/v1/dashboard
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:08,622 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+        Skipping auth for public endpoint:
+        Time: 2025-05-28 11:49:08 UTC
+        Path: /api/v1/dashboard
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 139
+Details: None
+
+2025-05-28 18:49:08,623 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:08 UTC
+    Path: /api/v1/dashboard
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:08,625 UTC - api.routes - INFO - [User: fdygg]
+Message: 
+        Dashboard access:
+        Time: 2025-05-28 11:49:08 UTC
+        IP: 127.0.0.1
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/routes/__init__.py
+Function: dashboard
+Line: 111
+Details: None
+
+2025-05-28 18:49:08,669 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+        [7f86d060-80c7-4836-8c4b-d9d2ce5b5618] Response:
+        Time: 2025-05-28 11:49:08 UTC
+        Status: 200
+        Process Time: 0.0499 sec
+        Headers: {'content-length': '8181', 'content-type': 'text/html; charset=utf-8', 'access-control-allow-origin': '*', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'X-Request-ID', 'X-Request-ID': '7f86d060-80c7-4836-8c4b-d9d2ce5b5618', 'X-Process-Time': '0.0499', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+        Content-Type: text/html; charset=utf-8
+        Body: 
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 257
+Details: None
+
+2025-05-28 18:49:18,375 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    [49ab7728-b305-478b-b24c-8dbada96b415] Incoming Request:
+    Time: 2025-05-28 11:49:18 UTC
+    Method: POST
+    URL: http://localhost:8080/api/v1/login
+    Path: /api/v1/login
+    Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'content-length': '69', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'content-type': 'application/x-www-form-urlencoded', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+    Query Params: {}
+    Client: Address(host='127.0.0.1', port=34272)
+    Client Host: 127.0.0.1
+    Client Port: 34272
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 187
+Details: None
+
+2025-05-28 18:49:18,377 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:18 UTC
+    Path: /api/v1/login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:18,378 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Auth Check:
+    Time: 2025-05-28 11:49:18 UTC
+    Path: /api/v1/login
+    Is Public: True
+    In PUBLIC_ENDPOINTS: True
+    Has skip_auth: False
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 127
+Details: None
+
+2025-05-28 18:49:18,378 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:18 UTC
+    Path: /api/v1/login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:18,379 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+        Skipping auth for public endpoint:
+        Time: 2025-05-28 11:49:18 UTC
+        Path: /api/v1/login
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 139
+Details: None
+
+2025-05-28 18:49:18,380 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:18 UTC
+    Path: /api/v1/login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:18,382 UTC - api.middleware - ERROR - [User: fdygg]
+Message: 
+        [49ab7728-b305-478b-b24c-8dbada96b415] Response:
+        Time: 2025-05-28 11:49:18 UTC
+        Status: 404
+        Process Time: 0.0069 sec
+        Headers: {'content-length': '22', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'X-Request-ID', 'X-Request-ID': '49ab7728-b305-478b-b24c-8dbada96b415', 'X-Process-Time': '0.0069', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+        Content-Type: application/json
+        Body: {'detail': 'Not Found'}
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 257
+Details: None
+
+2025-05-28 18:49:30,827 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:49:31,240 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:49:34,588 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    [8fe11110-9a2f-4128-a9b8-0128aaf0fd45] Incoming Request:
+    Time: 2025-05-28 11:49:34 UTC
+    Method: POST
+    URL: http://localhost:8080/api/v1/login
+    Path: /api/v1/login
+    Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'content-length': '69', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'content-type': 'application/x-www-form-urlencoded', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+    Query Params: {}
+    Client: Address(host='127.0.0.1', port=49426)
+    Client Host: 127.0.0.1
+    Client Port: 49426
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 187
+Details: None
+
+2025-05-28 18:49:34,590 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:34 UTC
+    Path: /api/v1/login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:34,591 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Auth Check:
+    Time: 2025-05-28 11:49:34 UTC
+    Path: /api/v1/login
+    Is Public: True
+    In PUBLIC_ENDPOINTS: True
+    Has skip_auth: False
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 127
+Details: None
+
+2025-05-28 18:49:34,591 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:34 UTC
+    Path: /api/v1/login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:34,592 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+        Skipping auth for public endpoint:
+        Time: 2025-05-28 11:49:34 UTC
+        Path: /api/v1/login
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 139
+Details: None
+
+2025-05-28 18:49:34,592 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+    Checking public endpoint:
+    Time: 2025-05-28 11:49:34 UTC
+    Path: /api/v1/login
+    Raw match: True
+    User: fdygg
+    
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 67
+Details: None
+
+2025-05-28 18:49:34,595 UTC - api.middleware - ERROR - [User: fdygg]
+Message: 
+        [8fe11110-9a2f-4128-a9b8-0128aaf0fd45] Response:
+        Time: 2025-05-28 11:49:34 UTC
+        Status: 404
+        Process Time: 0.0064 sec
+        Headers: {'content-length': '22', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'X-Request-ID', 'X-Request-ID': '8fe11110-9a2f-4128-a9b8-0128aaf0fd45', 'X-Process-Time': '0.0064', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+        Content-Type: application/json
+        Body: {'detail': 'Not Found'}
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 257
+Details: None
+
+2025-05-28 18:50:25,796 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:50:26,265 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:51:20,814 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:51:21,431 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:52:15,780 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:52:16,208 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:53:10,785 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:53:11,231 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:54:05,883 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:54:06,360 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:55:00,824 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:55:01,374 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 18:55:55,773 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 18:55:56,162 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 20:56:32,295 UTC - __main__ - INFO - [User: fdygg]
+Message: 
+        Starting application:
+        Time: 2025-05-28 13:56:32 UTC
+        User: fdygg
+        Python Version: 3.12.10 (main, Apr  9 2025, 18:13:11) [Clang 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456
+        
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 369
+Details: None
+
+2025-05-28 20:56:32,296 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Loading configuration file...
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 82
+Details: None
+
+2025-05-28 20:56:32,301 UTC - __main__ - INFO - [User: fdygg]
+Message: Configuration loaded successfully
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 99
+Details: None
+
+2025-05-28 20:56:32,301 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up database...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 380
+Details: None
+
+2025-05-28 20:56:32,322 UTC - database - INFO - [User: fdygg]
+Message: Database setup completed successfully
+Path: /storage/emulated/0/test/database.py
+Function: setup_database
+Line: 261
+Details: None
+
+2025-05-28 20:56:32,329 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Creating bot instance...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 384
+Details: None
+
+2025-05-28 20:56:32,335 UTC - discord.client - WARNING - [User: fdygg]
+Message: PyNaCl is not installed, voice will NOT be supported
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: __init__
+Line: 318
+Details: None
+
+2025-05-28 20:56:32,337 UTC - __main__ - DEBUG - [User: fdygg]
+Message: 
+        Bot initialized with:
+        Admin ID: 1035189920488235120
+        Guild ID: 1318806349118963722
+        Live Stock Channel: 1318806350310146114
+        Purchase Log Channel: 1318806351228698683
+        Donation Log Channel: 1318806351228698680
+        History Buy Channel: 1318806351228698682
+        Startup Time: 2025-05-28 13:56:32.337433+00:00
+        
+Path: /storage/emulated/0/test/main.py
+Function: __init__
+Line: 142
+Details: None
+
+2025-05-28 20:56:32,338 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up API server...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 388
+Details: None
+
+2025-05-28 20:56:32,339 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        Creating API server:
+        Time: 2025-05-28 13:56:32 UTC
+        Bot Type: MyBot
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 321
+Details: None
+
+2025-05-28 20:56:32,341 UTC - api.server - DEBUG - [User: fdygg]
+Message: Setting up API routes and middleware
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 91
+Details: None
+
+2025-05-28 20:56:32,342 UTC - api.dependencies - DEBUG - [User: fdygg]
+Message: 
+            Setting bot instance:
+            Bot: MyBot
+            Time: 2025-05-28 13:56:32 UTC
+            
+Path: /storage/emulated/0/test/api/dependencies.py
+Function: set_bot
+Line: 18
+Details: None
+
+2025-05-28 20:56:32,376 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 13:56:32
+Current User's Login: fdygg
+Setting up API middleware and error handlers...
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 317
+Details: None
+
+2025-05-28 20:56:32,376 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 13:56:32
+Current User's Login: fdygg
+Middleware setup completed:
+Public Endpoints: ['/', '/docs', '/redoc', '/favicon.ico', '/static', '/login', '/api/v1/health', '/api/v1/auth/token', '/api/v1/openapi.json', '/api/v1/dashboard', '/api/v1/login', '/api/v1/admin/login', '/api/v1/admin/register', '/api/v1/admin/reset-password', '/dashboard', '/health', '/auth/token', '/openapi.json', '/admin/login', '/admin/register', '/admin/reset-password']
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 330
+Details: None
+
+2025-05-28 20:56:32,379 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            API routes and middleware setup completed:
+            Time: 2025-05-28 13:56:32 UTC
+            Total Routes: 20
+            Auth Enabled: True
+            CORS Enabled: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 230
+Details: None
+
+2025-05-28 20:56:32,408 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        API Server initialized:
+        Time: 2025-05-28 13:56:32 UTC
+        Bot: MyBot
+        FastAPI App: FastAPI
+        Version: 1.0.0
+        Python: 3.12.10
+        OS: Linux-5.4.254-android12-9-g86b20c4f85e6-ab939-aarch64-with-libc
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: __init__
+Line: 43
+Details: None
+
+2025-05-28 20:56:32,410 UTC - api.server - INFO - [User: fdygg]
+Message: 
+        API server thread started:
+        Time: 2025-05-28 13:56:32 UTC
+        Thread ID: 485616344320
+        Thread Name: APIServerThread
+        Status: Running
+        Version: 1.0.0
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 337
+Details: None
+
+2025-05-28 20:56:32,411 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            Starting API server:
+            Time: 2025-05-28 13:56:32 UTC
+            Host: 0.0.0.0
+            Port: 8080
+            Debug: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: run
+Line: 297
+Details: None
+
+2025-05-28 20:56:32,413 UTC - __main__ - INFO - [User: fdygg]
+Message: Starting bot...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 392
+Details: None
+
+2025-05-28 20:56:32,414 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 20:56:32,417 UTC - discord.client - INFO - [User: fdygg]
+Message: logging in using static token
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: login
+Line: 643
+Details: None
+
+2025-05-28 20:56:32,426 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 20:56:32,528 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Started server process [21814]
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _serve
+Line: 83
+Details: None
+
+2025-05-28 20:56:32,528 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Waiting for application startup.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 48
+Details: None
+
+2025-05-28 20:56:32,529 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Application startup complete.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 62
+Details: None
+
+2025-05-28 20:56:32,530 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _log_started_message
+Line: 215
+Details: None
+
+2025-05-28 20:56:33,259 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up bot components...
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 156
+Details: None
+
+2025-05-28 20:56:33,263 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Command handler initialized
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 162
+Details: None
+
+2025-05-28 20:56:33,264 UTC - __main__ - DEBUG - [User: fdygg]
+Message: aiohttp session created
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 166
+Details: None
+
+2025-05-28 20:56:33,315 UTC - __main__ - ERROR - [User: fdygg]
+Message: 
+                    Failed to load extension:
+                    Extension: cogs.admin
+                    Error: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+                    Time: 2025-05-28 13:56:33 UTC
+                    Stack Trace:
+                    Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/storage/emulated/0/test/cogs/admin.py", line 15, in <module>
+    from api.config import API_SECRET_KEY
+ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/storage/emulated/0/test/main.py", line 180, in setup_hook
+    await self.load_extension(ext)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+                    
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 183
+Details: None
+
+2025-05-28 20:56:33,370 UTC - LiveStock - INFO - [User: fdygg]
+Message: LiveStock cog loaded and task started
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: cog_load
+Line: 32
+Details: None
+
+2025-05-28 20:56:33,370 UTC - root - INFO - [User: fdygg]
+Message: LiveStock cog loaded successfully
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: setup
+Line: 105
+Details: None
+
+2025-05-28 20:56:33,371 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.live_stock
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 20:56:33,377 UTC - root - INFO - [User: fdygg]
+Message: Transaction cog loaded successfully at 2025-05-28 13:56:33 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: setup
+Line: 342
+Details: None
+
+2025-05-28 20:56:33,377 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.trx
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 20:56:33,400 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.donate
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 20:56:33,405 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog loading...
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: cog_load
+Line: 451
+Details: None
+
+2025-05-28 20:56:33,405 UTC - root - INFO - [User: fdygg]
+Message: BalanceManager cog loaded successfully at 2025-05-28 13:56:33 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: setup
+Line: 464
+Details: None
+
+2025-05-28 20:56:33,405 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.balance_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 20:56:33,410 UTC - ProductManagerCog - INFO - [User: fdygg]
+Message: ProductManagerCog loading...
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: cog_load
+Line: 555
+Details: None
+
+2025-05-28 20:56:33,411 UTC - root - INFO - [User: fdygg]
+Message: ProductManager cog loaded successfully at 2025-05-28 13:56:33 UTC
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: setup
+Line: 568
+Details: None
+
+2025-05-28 20:56:33,411 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.product_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 20:56:34,076 UTC - discord.gateway - INFO - [User: fdygg]
+Message: Shard ID None has connected to Gateway (Session ID: 17a73512eda973ca185d0d06549a72f7).
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/gateway.py
+Function: received_message
+Line: 562
+Details: None
+
+2025-05-28 20:56:36,270 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot Fdy is ready!
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 213
+Details: None
+
+2025-05-28 20:56:36,270 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot ID: 1319288311881142323
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 214
+Details: None
+
+2025-05-28 20:56:36,271 UTC - __main__ - INFO - [User: fdygg]
+Message: Guild ID: 1318806349118963722
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 215
+Details: None
+
+2025-05-28 20:56:36,271 UTC - __main__ - INFO - [User: fdygg]
+Message: Admin ID: 1035189920488235120
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 216
+Details: None
+
+2025-05-28 20:56:36,271 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Live Stock channel: 📜⌗・live-stock
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 20:56:36,271 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Purchase Log channel: log-purch
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 20:56:36,271 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Donation Log channel: deposit
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 20:56:36,271 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found History Buy channel: buy-logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 20:56:36,272 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Music channel: 🔔⌗・music
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 20:56:36,272 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Logs channel: 🔔⌗・logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 20:56:36,273 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Bot status updated
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 248
+Details: None
+
+2025-05-28 20:56:36,273 UTC - TransactionCog - INFO - [User: fdygg]
+Message: TransactionCog is ready at 2025-05-28 13:56:36 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: on_ready
+Line: 335
+Details: None
+
+2025-05-28 20:56:36,273 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog is ready at 2025-05-28 13:56:36 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: on_ready
+Line: 447
+Details: None
+
+2025-05-28 20:56:36,714 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 20:56:37,060 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 20:57:31,297 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 20:57:31,720 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 20:58:26,376 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 20:58:26,911 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 20:59:21,348 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 20:59:21,800 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:00:16,356 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:00:16,985 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:01:11,331 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:01:11,834 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:02:06,338 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:02:06,838 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:03:01,293 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:03:01,817 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:03:56,339 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:03:56,751 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:04:51,363 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:04:51,891 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:05:46,310 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:05:46,790 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:06:53,518 UTC - __main__ - INFO - [User: fdygg]
+Message: 
+        Starting application:
+        Time: 2025-05-28 14:06:53 UTC
+        User: fdygg
+        Python Version: 3.12.10 (main, Apr  9 2025, 18:13:11) [Clang 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456
+        
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 369
+Details: None
+
+2025-05-28 21:06:53,520 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Loading configuration file...
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 82
+Details: None
+
+2025-05-28 21:06:53,523 UTC - __main__ - INFO - [User: fdygg]
+Message: Configuration loaded successfully
+Path: /storage/emulated/0/test/main.py
+Function: load
+Line: 99
+Details: None
+
+2025-05-28 21:06:53,524 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up database...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 380
+Details: None
+
+2025-05-28 21:06:53,549 UTC - database - INFO - [User: fdygg]
+Message: Database setup completed successfully
+Path: /storage/emulated/0/test/database.py
+Function: setup_database
+Line: 261
+Details: None
+
+2025-05-28 21:06:53,553 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Creating bot instance...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 384
+Details: None
+
+2025-05-28 21:06:53,557 UTC - discord.client - WARNING - [User: fdygg]
+Message: PyNaCl is not installed, voice will NOT be supported
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: __init__
+Line: 318
+Details: None
+
+2025-05-28 21:06:53,559 UTC - __main__ - DEBUG - [User: fdygg]
+Message: 
+        Bot initialized with:
+        Admin ID: 1035189920488235120
+        Guild ID: 1318806349118963722
+        Live Stock Channel: 1318806350310146114
+        Purchase Log Channel: 1318806351228698683
+        Donation Log Channel: 1318806351228698680
+        History Buy Channel: 1318806351228698682
+        Startup Time: 2025-05-28 14:06:53.558947+00:00
+        
+Path: /storage/emulated/0/test/main.py
+Function: __init__
+Line: 142
+Details: None
+
+2025-05-28 21:06:53,559 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up API server...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 388
+Details: None
+
+2025-05-28 21:06:53,560 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        Creating API server:
+        Time: 2025-05-28 14:06:53 UTC
+        Bot Type: MyBot
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 321
+Details: None
+
+2025-05-28 21:06:53,562 UTC - api.server - DEBUG - [User: fdygg]
+Message: Setting up API routes and middleware
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 91
+Details: None
+
+2025-05-28 21:06:53,562 UTC - api.dependencies - DEBUG - [User: fdygg]
+Message: 
+            Setting bot instance:
+            Bot: MyBot
+            Time: 2025-05-28 14:06:53 UTC
+            
+Path: /storage/emulated/0/test/api/dependencies.py
+Function: set_bot
+Line: 18
+Details: None
+
+2025-05-28 21:06:53,597 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:06:53
+Current User's Login: fdygg
+Setting up API middleware and error handlers...
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 317
+Details: None
+
+2025-05-28 21:06:53,597 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:06:53
+Current User's Login: fdygg
+Middleware setup completed:
+Public Endpoints: ['/', '/docs', '/redoc', '/favicon.ico', '/static', '/login', '/api/v1/health', '/api/v1/auth/token', '/api/v1/openapi.json', '/api/v1/dashboard', '/api/v1/login', '/api/v1/admin/login', '/api/v1/admin/register', '/api/v1/admin/reset-password', '/dashboard', '/health', '/auth/token', '/openapi.json', '/admin/login', '/admin/register', '/admin/reset-password']
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: setup_middleware
+Line: 330
+Details: None
+
+2025-05-28 21:06:53,600 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            API routes and middleware setup completed:
+            Time: 2025-05-28 14:06:53 UTC
+            Total Routes: 20
+            Auth Enabled: True
+            CORS Enabled: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: setup_api
+Line: 230
+Details: None
+
+2025-05-28 21:06:53,615 UTC - api.server - DEBUG - [User: fdygg]
+Message: 
+        API Server initialized:
+        Time: 2025-05-28 14:06:53 UTC
+        Bot: MyBot
+        FastAPI App: FastAPI
+        Version: 1.0.0
+        Python: 3.12.10
+        OS: Linux-5.4.254-android12-9-g86b20c4f85e6-ab939-aarch64-with-libc
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: __init__
+Line: 43
+Details: None
+
+2025-05-28 21:06:53,617 UTC - api.server - INFO - [User: fdygg]
+Message: 
+        API server thread started:
+        Time: 2025-05-28 14:06:53 UTC
+        Thread ID: 497012284672
+        Thread Name: APIServerThread
+        Status: Running
+        Version: 1.0.0
+        
+Path: /storage/emulated/0/test/api/server.py
+Function: create_api_server
+Line: 337
+Details: None
+
+2025-05-28 21:06:53,619 UTC - api.server - INFO - [User: fdygg]
+Message: 
+            Starting API server:
+            Time: 2025-05-28 14:06:53 UTC
+            Host: 0.0.0.0
+            Port: 8080
+            Debug: True
+            Version: 1.0.0
+            
+Path: /storage/emulated/0/test/api/server.py
+Function: run
+Line: 297
+Details: None
+
+2025-05-28 21:06:53,621 UTC - __main__ - INFO - [User: fdygg]
+Message: Starting bot...
+Path: /storage/emulated/0/test/main.py
+Function: main
+Line: 392
+Details: None
+
+2025-05-28 21:06:53,623 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 21:06:53,624 UTC - discord.client - INFO - [User: fdygg]
+Message: logging in using static token
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/client.py
+Function: login
+Line: 643
+Details: None
+
+2025-05-28 21:06:53,648 UTC - asyncio - DEBUG - [User: fdygg]
+Message: Using selector: EpollSelector
+Path: /data/data/com.termux/files/usr/lib/python3.12/asyncio/selector_events.py
+Function: __init__
+Line: 64
+Details: None
+
+2025-05-28 21:06:53,746 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Started server process [26308]
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _serve
+Line: 83
+Details: None
+
+2025-05-28 21:06:53,746 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Waiting for application startup.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 48
+Details: None
+
+2025-05-28 21:06:53,747 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Application startup complete.
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/lifespan/on.py
+Function: startup
+Line: 62
+Details: None
+
+2025-05-28 21:06:53,748 UTC - uvicorn.error - INFO - [User: fdygg]
+Message: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/uvicorn/server.py
+Function: _log_started_message
+Line: 215
+Details: None
+
+2025-05-28 21:06:54,484 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Setting up bot components...
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 156
+Details: None
+
+2025-05-28 21:06:54,488 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Command handler initialized
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 162
+Details: None
+
+2025-05-28 21:06:54,488 UTC - __main__ - DEBUG - [User: fdygg]
+Message: aiohttp session created
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 166
+Details: None
+
+2025-05-28 21:06:54,569 UTC - __main__ - ERROR - [User: fdygg]
+Message: 
+                    Failed to load extension:
+                    Extension: cogs.admin
+                    Error: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+                    Time: 2025-05-28 14:06:54 UTC
+                    Stack Trace:
+                    Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/storage/emulated/0/test/cogs/admin.py", line 15, in <module>
+    from api.config import API_SECRET_KEY
+ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/storage/emulated/0/test/main.py", line 180, in setup_hook
+    await self.load_extension(ext)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.admin' raised an error: ImportError: cannot import name 'API_SECRET_KEY' from 'api.config' (/storage/emulated/0/test/api/config.py)
+
+                    
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 183
+Details: None
+
+2025-05-28 21:06:54,618 UTC - LiveStock - INFO - [User: fdygg]
+Message: LiveStock cog loaded and task started
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: cog_load
+Line: 32
+Details: None
+
+2025-05-28 21:06:54,619 UTC - root - INFO - [User: fdygg]
+Message: LiveStock cog loaded successfully
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: setup
+Line: 105
+Details: None
+
+2025-05-28 21:06:54,619 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.live_stock
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 21:06:54,626 UTC - root - INFO - [User: fdygg]
+Message: Transaction cog loaded successfully at 2025-05-28 14:06:54 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: setup
+Line: 342
+Details: None
+
+2025-05-28 21:06:54,627 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.trx
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 21:06:54,634 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.donate
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 21:06:54,639 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog loading...
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: cog_load
+Line: 451
+Details: None
+
+2025-05-28 21:06:54,639 UTC - root - INFO - [User: fdygg]
+Message: BalanceManager cog loaded successfully at 2025-05-28 14:06:54 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: setup
+Line: 464
+Details: None
+
+2025-05-28 21:06:54,640 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.balance_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 21:06:54,645 UTC - ProductManagerCog - INFO - [User: fdygg]
+Message: ProductManagerCog loading...
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: cog_load
+Line: 555
+Details: None
+
+2025-05-28 21:06:54,645 UTC - root - INFO - [User: fdygg]
+Message: ProductManager cog loaded successfully at 2025-05-28 14:06:54 UTC
+Path: /storage/emulated/0/test/ext/product_manager.py
+Function: setup
+Line: 568
+Details: None
+
+2025-05-28 21:06:54,645 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Loaded extension: ext.product_manager
+Path: /storage/emulated/0/test/main.py
+Function: setup_hook
+Line: 181
+Details: None
+
+2025-05-28 21:06:55,265 UTC - discord.gateway - INFO - [User: fdygg]
+Message: Shard ID None has connected to Gateway (Session ID: c3b40fa7f8f9b5b01570c3c4e39806f0).
+Path: /data/data/com.termux/files/usr/lib/python3.12/site-packages/discord/gateway.py
+Function: received_message
+Line: 562
+Details: None
+
+2025-05-28 21:06:57,320 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot Fdy is ready!
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 213
+Details: None
+
+2025-05-28 21:06:57,321 UTC - __main__ - INFO - [User: fdygg]
+Message: Bot ID: 1319288311881142323
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 214
+Details: None
+
+2025-05-28 21:06:57,321 UTC - __main__ - INFO - [User: fdygg]
+Message: Guild ID: 1318806349118963722
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 215
+Details: None
+
+2025-05-28 21:06:57,321 UTC - __main__ - INFO - [User: fdygg]
+Message: Admin ID: 1035189920488235120
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 216
+Details: None
+
+2025-05-28 21:06:57,321 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Live Stock channel: 📜⌗・live-stock
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 21:06:57,321 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Purchase Log channel: log-purch
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 21:06:57,321 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Donation Log channel: deposit
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 21:06:57,322 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found History Buy channel: buy-logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 21:06:57,322 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Music channel: 🔔⌗・music
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 21:06:57,322 UTC - __main__ - INFO - [User: fdygg]
+Message: ✅ Found Logs channel: 🔔⌗・logs
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 236
+Details: None
+
+2025-05-28 21:06:57,323 UTC - __main__ - DEBUG - [User: fdygg]
+Message: Bot status updated
+Path: /storage/emulated/0/test/main.py
+Function: on_ready
+Line: 248
+Details: None
+
+2025-05-28 21:06:57,323 UTC - TransactionCog - INFO - [User: fdygg]
+Message: TransactionCog is ready at 2025-05-28 14:06:57 UTC
+Path: /storage/emulated/0/test/ext/trx.py
+Function: on_ready
+Line: 335
+Details: None
+
+2025-05-28 21:06:57,323 UTC - BalanceManagerCog - INFO - [User: fdygg]
+Message: BalanceManagerCog is ready at 2025-05-28 14:06:57 UTC
+Path: /storage/emulated/0/test/ext/balance_manager.py
+Function: on_ready
+Line: 447
+Details: None
+
+2025-05-28 21:06:57,764 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:06:58,209 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:07:52,338 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:07:52,741 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:08:47,415 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:08:47,977 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:09:20,443 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:20
+Current User's Login: fdygg
+[4cfc57da-db1f-4ddf-b06b-dc2e21089150] Incoming Request:
+Method: POST
+URL: http://localhost:8080/api/v1/login
+Path: /api/v1/login
+Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'content-length': '89', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'content-type': 'application/x-www-form-urlencoded', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+Query Params: {}
+Client: Address(host='127.0.0.1', port=36990)
+Client Host: 127.0.0.1
+Client Port: 36990
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 188
+Details: None
+
+2025-05-28 21:09:20,446 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:20
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/login
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:20,447 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:20
+Current User's Login: fdygg
+Auth Check:
+Path: /api/v1/login
+Is Public: True
+In PUBLIC_ENDPOINTS: True
+Has skip_auth: False
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 139
+Details: None
+
+2025-05-28 21:09:20,447 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:20
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/login
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:20,447 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:20
+Current User's Login: fdygg
+Skipping auth for public endpoint:
+Path: /api/v1/login
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 149
+Details: None
+
+2025-05-28 21:09:20,449 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:20
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/login
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:20,456 UTC - api.middleware - ERROR - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:20
+Current User's Login: fdygg
+[4cfc57da-db1f-4ddf-b06b-dc2e21089150] Response:
+Status: 404
+Process Time: 0.0140 sec
+Headers: {'content-length': '22', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'X-Request-ID', 'X-Request-ID': '4cfc57da-db1f-4ddf-b06b-dc2e21089150', 'X-Process-Time': '0.0140', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+Content-Type: application/json
+Body: {'detail': 'Not Found'}
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 255
+Details: None
+
+2025-05-28 21:09:31,737 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:31
+Current User's Login: fdygg
+[7622e883-40b1-4721-9692-3ee9d9cbea50] Incoming Request:
+Method: GET
+URL: http://localhost:8080/api/v1/dashboard
+Path: /api/v1/dashboard
+Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+Query Params: {}
+Client: Address(host='127.0.0.1', port=37510)
+Client Host: 127.0.0.1
+Client Port: 37510
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 188
+Details: None
+
+2025-05-28 21:09:31,738 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:31
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/dashboard
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:31,739 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:31
+Current User's Login: fdygg
+Auth Check:
+Path: /api/v1/dashboard
+Is Public: True
+In PUBLIC_ENDPOINTS: True
+Has skip_auth: False
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 139
+Details: None
+
+2025-05-28 21:09:31,739 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:31
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/dashboard
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:31,740 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:31
+Current User's Login: fdygg
+Skipping auth for public endpoint:
+Path: /api/v1/dashboard
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 149
+Details: None
+
+2025-05-28 21:09:31,740 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:31
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/dashboard
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:31,745 UTC - api.routes - INFO - [User: fdygg]
+Message: 
+        Dashboard access:
+        Time: 2025-05-28 14:09:31 UTC
+        IP: 127.0.0.1
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/routes/__init__.py
+Function: dashboard
+Line: 111
+Details: None
+
+2025-05-28 21:09:31,822 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:31
+Current User's Login: fdygg
+[7622e883-40b1-4721-9692-3ee9d9cbea50] Response:
+Status: 200
+Process Time: 0.0858 sec
+Headers: {'content-length': '8181', 'content-type': 'text/html; charset=utf-8', 'access-control-allow-origin': '*', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'X-Request-ID', 'X-Request-ID': '7622e883-40b1-4721-9692-3ee9d9cbea50', 'X-Process-Time': '0.0858', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+Content-Type: text/html; charset=utf-8
+Body:
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 255
+Details: None
+
+2025-05-28 21:09:39,309 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:39
+Current User's Login: fdygg
+[bc0b3bad-2fb8-4a23-a000-17f18d98b9c8] Incoming Request:
+Method: GET
+URL: http://localhost:8080/api/v1/health
+Path: /api/v1/health
+Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+Query Params: {}
+Client: Address(host='127.0.0.1', port=33176)
+Client Host: 127.0.0.1
+Client Port: 33176
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 188
+Details: None
+
+2025-05-28 21:09:39,309 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:39
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/health
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:39,310 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:39
+Current User's Login: fdygg
+Auth Check:
+Path: /api/v1/health
+Is Public: True
+In PUBLIC_ENDPOINTS: True
+Has skip_auth: False
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 139
+Details: None
+
+2025-05-28 21:09:39,310 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:39
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/health
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:39,310 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:39
+Current User's Login: fdygg
+Skipping auth for public endpoint:
+Path: /api/v1/health
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 149
+Details: None
+
+2025-05-28 21:09:39,310 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:39
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/health
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:39,312 UTC - api.routes - INFO - [User: fdygg]
+Message: 
+        Health check:
+        Time: 2025-05-28 14:09:39 UTC
+        IP: 127.0.0.1
+        User: fdygg
+        
+Path: /storage/emulated/0/test/api/routes/__init__.py
+Function: health_check
+Line: 156
+Details: None
+
+2025-05-28 21:09:39,315 UTC - api.middleware - INFO - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:39
+Current User's Login: fdygg
+[bc0b3bad-2fb8-4a23-a000-17f18d98b9c8] Response:
+Status: 200
+Process Time: 0.0053 sec
+Headers: {'cache-control': 'no-cache, no-store, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'x-xss-protection': '1; mode=block', 'content-length': '1210', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'X-Request-ID', 'X-Request-ID': 'bc0b3bad-2fb8-4a23-a000-17f18d98b9c8', 'X-Process-Time': '0.0053', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+Content-Type: application/json
+Body: {'status': 'ok', 'timestamp': '2025-05-28 14:09:39', 'user': 'fdygg', 'version': '1.0.0', 'system': {'python_version': '3.12.10 (main, Apr  9 2025, 18:13:11) [Clang 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456', 'platform': 'Linux-5.4.254-android12-9-g86b20c4f85e6-ab939-aarch64-with-libc', 'timezone': 'UTC', 'memory': {'total': 3834740736, 'available': 484179968, 'percent': 87.4}, 'disk': {'total': 3100590080, 'free': 0, 'percent': 100.0}, 'cpu_percent': 0.0}, 'endpoints': {'base': '/api/v1', 'balance': '/api/v1/balance', 'stock': '/api/v1/stock', 'transactions': '/api/v1/transactions', 'admin': '/api/v1/admin'}, 'client': {'host': '127.0.0.1', 'port': 33176, 'headers': {'host': 'localhost:8080', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}}}
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 255
+Details: None
+
+2025-05-28 21:09:42,377 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:09:43,031 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
+2025-05-28 21:09:50,192 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:50
+Current User's Login: fdygg
+[266d868d-2e81-4e33-b604-26119e7b21c1] Incoming Request:
+Method: POST
+URL: http://localhost:8080/api/v1/login
+Path: /api/v1/login
+Headers: {'host': 'localhost:8080', 'connection': 'keep-alive', 'content-length': '89', 'sec-ch-ua-platform': '"Android"', 'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36', 'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"', 'content-type': 'application/x-www-form-urlencoded', 'sec-ch-ua-mobile': '?1', 'accept': '*/*', 'origin': 'null', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'id,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6'}
+Query Params: {}
+Client: Address(host='127.0.0.1', port=46278)
+Client Host: 127.0.0.1
+Client Port: 46278
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 188
+Details: None
+
+2025-05-28 21:09:50,194 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:50
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/login
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:50,195 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:50
+Current User's Login: fdygg
+Auth Check:
+Path: /api/v1/login
+Is Public: True
+In PUBLIC_ENDPOINTS: True
+Has skip_auth: False
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 139
+Details: None
+
+2025-05-28 21:09:50,195 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:50
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/login
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:50,195 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:50
+Current User's Login: fdygg
+Skipping auth for public endpoint:
+Path: /api/v1/login
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: auth_middleware
+Line: 149
+Details: None
+
+2025-05-28 21:09:50,213 UTC - api.middleware - DEBUG - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:50
+Current User's Login: fdygg
+Checking public endpoint:
+Path: /api/v1/login
+Raw match: True
+Is Admin Path: False
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: is_public_endpoint
+Line: 76
+Details: None
+
+2025-05-28 21:09:50,216 UTC - api.middleware - ERROR - [User: fdygg]
+Message: 
+Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-05-28 14:09:50
+Current User's Login: fdygg
+[266d868d-2e81-4e33-b604-26119e7b21c1] Response:
+Status: 404
+Process Time: 0.0230 sec
+Headers: {'content-length': '22', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'X-Request-ID', 'X-Request-ID': '266d868d-2e81-4e33-b604-26119e7b21c1', 'X-Process-Time': '0.0230', 'X-API-Version': '1.0.0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Security-Policy': "default-src 'self'"}
+Content-Type: application/json
+Body: {'detail': 'Not Found'}
+Path: /storage/emulated/0/test/api/middleware/__init__.py
+Function: logging_middleware
+Line: 255
+Details: None
+
+2025-05-28 21:10:37,368 UTC - LiveStockService - INFO - [User: fdygg]
+Message: Live Stock Update - Product: fr, Stock Count: 0
+Path: /storage/emulated/0/test/ext/live_service.py
+Function: create_stock_embed
+Line: 57
+Details: None
+
+2025-05-28 21:10:38,162 UTC - LiveStock - DEBUG - [User: fdygg]
+Message: Updated message 1375673079241642126
+Path: /storage/emulated/0/test/ext/live_stock.py
+Function: live_stock
+Line: 79
+Details: None
+
